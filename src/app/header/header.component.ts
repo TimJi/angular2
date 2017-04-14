@@ -14,9 +14,9 @@ export class HeaderComponent implements OnInit {
 
   }
 
-  changeTitle(evt: MouseEvent){
-    this.title == "msgm.guru"?  this.title = "msgm" : this.title = "msgm.guru";
-    console.log(evt);
+  changeTitle(evt: MouseEvent) {
+    this.title == "msgm.guru" ? this.title = "msgm" : this.title = "msgm.guru";
+    console.log(evt)
   }
 
 }
