@@ -8,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title = "msgm";
+  isHighlight = true;
+
   constructor() { }
 
   ngOnInit() {
 
+  }
+
+  switchHighlight(){
+    this.isHighlight = !this.isHighlight;
   }
 
   changeTitle(evt: MouseEvent) {
